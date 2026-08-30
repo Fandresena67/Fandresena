@@ -1,0 +1,122 @@
+:root {
+  /* Palette principale — bleu nuit + accent corail */
+  --text: #4a5568;
+  --text-h: #1a1f2e;
+  --bg: #fafbfc;
+  --border: #e2e5ea;
+
+  --primary: #2b3a67;
+  --primary-dark: #1a2544;
+  --accent: #ff6b5c;
+  --accent-dark: #e5493a;
+  --accent-bg: rgba(255, 107, 92, 0.1);
+
+  --shadow-sm: 0 2px 8px rgba(26, 31, 46, 0.06);
+  --shadow-md: 0 8px 24px rgba(26, 31, 46, 0.1);
+  --shadow-lg: 0 16px 40px rgba(26, 31, 46, 0.14);
+
+  --sans: 'Inter', system-ui, sans-serif;
+  --heading: 'Space Grotesk', system-ui, sans-serif;
+
+  font: 16px/1.6 var(--sans);
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 15% 10%, rgba(255, 107, 92, 0.08) 0%, transparent 45%),
+    radial-gradient(circle at 85% 90%, rgba(43, 58, 103, 0.08) 0%, transparent 45%),
+    var(--bg);
+  background-attachment: fixed;
+  padding-top: 76px;
+}
+
+#root {
+  width: 100%;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading);
+  font-weight: 600;
+  color: var(--text-h);
+  letter-spacing: -0.02em;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--accent);
+}
+
+/* Boutons Bootstrap redéfinis avec la nouvelle palette */
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--primary-dark);
+  border-color: var(--primary-dark);
+}
+
+.btn-outline-primary {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+.btn-outline-primary:hover {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.text-primary {
+  color: var(--primary) !important;
+}
+
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.bg-dark {
+  background-color: var(--primary-dark) !important;
+}
+
+/* Cartes plus douces */
+.card {
+  border: none;
+  border-radius: 14px;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.shadow-sm {
+  box-shadow: var(--shadow-sm) !important;
+}
+
+code {
+  font-family: ui-monospace, Consolas, monospace;
+  font-size: 15px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: var(--text-h);
+  background: #f4f3ec;
+}
