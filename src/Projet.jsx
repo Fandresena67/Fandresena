@@ -3,64 +3,55 @@ import Footer from './Footer.jsx'
 function Projet() {
   const projets = [
     {
+      id: 8,
+      titre: "MADA DIGITAL AGENCY",
+      description: "Plateforme web Full-Stack pour une agence digitale avec présentation des services et projets, formulaire de contact connecté à une API, enregistrement des messages dans PostgreSQL, notifications par email et espace d'administration sécurisé avec authentification JWT.",
+      image: "/mada-digital-agency.png",
+      tech: [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "React Router",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "JWT",
+        "Nodemailer"
+      ],
+      // https://github.com/Fandresena67/mada-digital-agency
+      lienDemo: "https://mada-digital-agency-nine.vercel.app/",
+    },
 
-  id: 5,
+    {
+      id: 5,
+      titre: "Système de réservation de voyage",
+      description: "Architecture microservices complète : 6 services indépendants communiquant en REST et en événements asynchrones (RabbitMQ), avec API Gateway, authentification JWT et espace administrateur. Déployé en production (Render, Vercel, TiDB Cloud).",
+      image: "/reservation-voyage.png",
+      tech: ["React", "Node.js", "Express", "MySQL", "RabbitMQ", "Docker"],
 
-  titre: "Système de réservation de voyage",
+      // https://github.com/Fandresena67/reservation-voyage
+      // lienGithub: "https://github.com/Fandresena67/reservation-voyage",
 
-  description: "Architecture microservices complète : 6 services indépendants communiquant en REST et en événements asynchrones (RabbitMQ), avec API Gateway, authentification JWT et espace administrateur. Déployé en production (Render, Vercel, TiDB Cloud).",
+      lienDemo: "https://reservation-voyage-two.vercel.app/",
+    },
 
-  image: "/reservation-voyage.png",
+    {
+      id: 6,
+      titre: "Fandresena Hotel",
+      description: "Application de gestion et réservation hôtelière full stack : frontend React/Vite avec Tailwind CSS, backend Node.js/Express, notifications par email via Resend. Déployé en production (Vercel pour le frontend, Railway pour le backend).",
+      image: "/hotel-app.png",
+      tech: ["React", "Vite", "Tailwind CSS", "Node.js", "Express", "Resend"],
+      lienDemo: "https://hotel-frotend.vercel.app/",
+    },
 
-  tech: ["React", "Node.js", "Express", "MySQL", "RabbitMQ", "Docker"],
- 
-  // https://github.com/Fandresena67/reservation-voyage
-
-  // lienGithub: "https://github.com/Fandresena67/reservation-voyage",
-
-  lienDemo: "https://reservation-voyage-two.vercel.app/",
-
-},
-
-{
-  id: 6,
-  titre: "Fandresena Hotel",
-  description: "Application de gestion et réservation hôtelière full stack : frontend React/Vite avec Tailwind CSS, backend Node.js/Express, notifications par email via Resend. Déployé en production (Vercel pour le frontend, Railway pour le backend).",
-  image: "/hotel-app.png",
-  tech: ["React", "Vite", "Tailwind CSS", "Node.js", "Express", "Resend"],
-  lienDemo: "https://hotel-frotend.vercel.app/",
-},
-
-
-{
-  id: 7,
-  titre: "HotelManager",
-  description: "Application desktop full Java de gestion hôtelière : authentification sécurisée (BCrypt), gestion des clients/chambres/réservations avec anti-double-réservation, check-in/check-out automatisé, suivi des paiements, facturation imprimable, rôles utilisateurs différenciés (Admin/Réceptionniste/Gestionnaire), et interface Swing avec base de données MySQL.",
-  image: "/hotelmanager-app.png",
-  tech: ["Java", "Swing", "MySQL", "JDBC", "BCrypt"],
-  lienDemo: "https://github.com/Fandresena67/HotelManager",
-},
-
-//     {
-
-//   id: 5,
-
-//   titre: "Système de réservation de voyage",
-
-//   description: "Application de réservation de vols en architecture microservices : inscription, recherche de vols, réservation, paiement et notifications en temps réel. Backend Node.js/Express (6 services + API Gateway), communication asynchrone via RabbitMQ, base de données MySQL, frontend React avec espace administrateur.",
-
-//   image: "/reservation-voyage.png",
-
-//   tech: ["React", "Node.js", "Express", "MySQL", "RabbitMQ", "Docker"],
-
-//   // https://github.com/Fandresena67/reservation-voyage
-
-//   lienGithub: "https://github.com/Fandresena67/reservation-voyage",
-
-//   lienDemo: "https://reservation-voyage-two.vercel.app/",
-
-// },
-
+    {
+      id: 7,
+      titre: "HotelManager",
+      description: "Application desktop full Java de gestion hôtelière : authentification sécurisée (BCrypt), gestion des clients/chambres/réservations avec anti-double-réservation, check-in/check-out automatisé, suivi des paiements, facturation imprimable, rôles utilisateurs différenciés (Admin/Réceptionniste/Gestionnaire), et interface Swing avec base de données MySQL.",
+      image: "/hotelmanager-app.png",
+      tech: ["Java", "Swing", "MySQL", "JDBC", "BCrypt"],
+      lienDemo: "https://github.com/Fandresena67/HotelManager",
+    },
 
     {
       id: 1,
@@ -68,9 +59,11 @@ function Projet() {
       description: "CV interactif développé en HTML, CSS et JavaScript. Version web responsive hébergée sur GitHub Pages.",
       image: "/fa.png",
       tech: ["HTML5", "JavaScript", "Tailwind CSS", "React"],
+
       // https://fandresena67.github.io/PageCV
       lienDemo: "https://perso-web-react.vercel.app/",
     },
+
     {
       id: 2,
       titre: "App Météo",
@@ -79,6 +72,7 @@ function Projet() {
       tech: ["React", "API", "Bootstrap"],
       lienDemo: "https://app-meteo-f7.vercel.app",
     },
+
     {
       id: 3,
       titre: "Todo List",
@@ -89,24 +83,22 @@ function Projet() {
     },
 
     {
-  id: 4,
-  titre: "STOCKPRO",
-  description: "Application de gestion de stock pour boutique informatique avec suivi des mouvements, alertes de seuil critique et persistance des données via le LocalStorage.",
-  image: "/stock.png",
-  tech: [ "LocalStorage", "JavaScript", "CSS3", "HTML5"],
-  lienDemo: "https://stock-app-two-beta.vercel.app/",
-},
-
-
-      
-
+      id: 4,
+      titre: "STOCKPRO",
+      description: "Application de gestion de stock pour boutique informatique avec suivi des mouvements, alertes de seuil critique et persistance des données via le LocalStorage.",
+      image: "/stock.png",
+      tech: ["LocalStorage", "JavaScript", "CSS3", "HTML5"],
+      lienDemo: "https://stock-app-two-beta.vercel.app/",
+    },
   ]
 
   return (
     <>
-      
       <div className="container mt-5">
-        <h1 className="display-5 fw-bold text-center mb-2 mt-5">Mes Projets</h1>
+        <h1 className="display-5 fw-bold text-center mb-2 mt-5">
+          Mes Projets
+        </h1>
+
         <p className="text-center text-muted mb-5">
           Découvrez mes réalisations récentes
         </p>
@@ -121,17 +113,33 @@ function Projet() {
                   alt={projet.titre}
                   style={{ height: '200px', objectFit: 'cover' }}
                 />
+
                 <div className="card-body d-flex flex-column p-4">
-                  <h5 className="card-title fw-bold">{projet.titre}</h5>
-                  <p className="card-text text-muted flex-grow-1">{projet.description}</p>
+                  <h5 className="card-title fw-bold">
+                    {projet.titre}
+                  </h5>
+
+                  <p className="card-text text-muted flex-grow-1">
+                    {projet.description}
+                  </p>
 
                   <div className="mb-3">
                     {projet.tech.map((tech, i) => (
-                      <span key={i} className="badge bg-primary me-1 mb-1">{tech}</span>
+                      <span
+                        key={i}
+                        className="badge bg-primary me-1 mb-1"
+                      >
+                        {tech}
+                      </span>
                     ))}
                   </div>
 
-                  <a href={projet.lienDemo} className="btn btn-accent btn-sm" target="_blank" rel="noreferrer">
+                  <a
+                    href={projet.lienDemo}
+                    className="btn btn-accent btn-sm"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Voir le site →
                   </a>
                 </div>
