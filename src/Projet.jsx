@@ -3,6 +3,22 @@ import Footer from './Footer.jsx'
 function Projet() {
   const projets = [
     {
+      id: 9,
+      titre: "Yummy Restaurant",
+      description: "Site web vitrine pour un restaurant avec 12 sections (Hero, About, Menu, Events, Chefs, Gallery...), système de traduction multilingue (EN/FR/DE) avec react-i18next, mode sombre persistant, carrousels interactifs, et formulaire de réservation connecté à FormSubmit pour l'envoi d'emails. Design 100% responsive et déployé sur Vercel.",
+      image: "/yummy-restaurant.png",
+      tech: [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "react-i18next",
+        "JavaScript",
+        "FormSubmit"
+      ],
+      lienDemo: "https://fandresena-restaurant.vercel.app",
+    },
+
+    {
       id: 8,
       titre: "MADA DIGITAL AGENCY",
       description: "Plateforme web Full-Stack pour une agence digitale avec présentation des services et projets, formulaire de contact connecté à une API, enregistrement des messages dans PostgreSQL, notifications par email et espace d'administration sécurisé avec authentification JWT.",
