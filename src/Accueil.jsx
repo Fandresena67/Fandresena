@@ -40,7 +40,7 @@ function Accueil() {
                 <Link to="/projet" className="btn btn-accent btn-lg px-4">
                   Voir mes projets
                 </Link>
-                <a href="/cv.pdf" download="CV-Fandresena.pdf" className="btn btn-outline-primary btn-lg px-4">
+                <a href="/cv_fandresena.pdf" download="CV-Fandresena.pdf" className="btn btn-outline-primary btn-lg px-4">
                   Télécharger mon CV
                 </a>
               </div>

@@ -157,7 +157,7 @@ function Footer() {
 
               <li>
                 <a
-                  href="/cv.pdf"
+                  href="/cv_fandresena.pdf"
                   download="CV-Fandresena.pdf"
                   className="footer-link"
                 >

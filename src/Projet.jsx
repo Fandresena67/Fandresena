@@ -3,6 +3,44 @@ import Footer from './Footer.jsx'
 function Projet() {
   const projets = [
     {
+  id: 10,
+  titre: "Tourisme Voyage Madagascar",
+  description: "Plateforme touristique bilingue (FR/EN) dédiée à la découverte de Madagascar. Elle propose un catalogue de 21 destinations, 51 activités et 62 hébergements, avec recherche, filtres, pages de détail et formulaire de demande de réservation par email. Interface responsive développée avec React 19, TypeScript et Tailwind CSS v4, déployée sur Vercel.",
+  image: "/tourisme-voyage-madagascar.png",
+  tech: [
+    "React 19",
+    "TypeScript",
+    "Vite 8",
+    "Tailwind CSS v4",
+    "React Router v7",
+    "Lucide React",
+    "FormSubmit",
+    "Vercel"
+  ],
+  lienDemo: "https://tourisme-voyage-madagascar.vercel.app",
+},
+    {
+  id: 11,
+  titre: "MADA STOCK",
+  description: "Application SaaS de gestion de stock multi-entreprises avec isolation des données, authentification JWT, gestion des rôles et permissions, produits, catégories, mouvements de stock, fournisseurs, clients, achats, ventes, factures, rapports, alertes et tableau de bord analytique. Interface multilingue (FR/EN/MG), gestion de plusieurs devises et PWA installable.",
+  image: "/mada-stock.png",
+  tech: [
+    "React 18",
+    "JavaScript",
+    "Vite 5",
+    "Tailwind CSS 3",
+    "Node.js",
+    "Express",
+    "PostgreSQL 16",
+    "JWT",
+    "TanStack Query",
+    "Recharts",
+    "Vercel"
+  ],
+  lienDemo: "https://mada-stock.vercel.app/",
+},
+
+    {
       id: 9,
       titre: "Yummy Restaurant",
       description: "Site web vitrine pour un restaurant avec 12 sections (Hero, About, Menu, Events, Chefs, Gallery...), système de traduction multilingue (EN/FR/DE) avec react-i18next, mode sombre persistant, carrousels interactifs, et formulaire de réservation connecté à FormSubmit pour l'envoi d'emails. Design 100% responsive et déployé sur Vercel.",
