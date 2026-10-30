@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 // Domaines d'emails temporaires/jetables les plus utilisés
 const DISPOSABLE_DOMAINS = [
@@ -34,17 +34,12 @@ function isValidEmail(email) {
 }
 
 function EmailGate() {
-  const [visible, setVisible] = useState(false)
+  const [visible, setVisible] = useState(
+    () => !sessionStorage.getItem('visitorEmailGiven')
+  )
   const [email, setEmail] = useState("")
   const [status, setStatus] = useState("")
   const [error, setError] = useState("")
-
-  useEffect(() => {
-    const hasVisited = sessionStorage.getItem('visitorEmailGiven')
-    if (!hasVisited) {
-      setVisible(true)
-    }
-  }, [])
 
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -67,7 +62,7 @@ function EmailGate() {
           message: "Nouveau visiteur sur le portfolio"
         })
       })
-    } catch (err) {
+    } catch {
       // même en cas d'erreur réseau, on laisse entrer le visiteur
     }
 

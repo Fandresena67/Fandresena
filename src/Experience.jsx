@@ -3,17 +3,17 @@ import Footer from './Footer.jsx'
 function Experience() {
   const experiences = [
     {
-      poste: "Développeur web",
-      entreprise: "Projet Personnel / Formation",
-      periode: "2025",
-      description: "Développement d'applications web avec React et Bootstrap. Création de ce portfolio, intégration d'API, gestion des routes avec React Router."
+      poste: "Stagiaire Développeur Mobile & Intégration ERP",
+      entreprise: "Commune Urbaine de Fianarantsoa — Service de l'Innovation Technologique",
+      periode: "Août - Octobre 2026",
+      description: "Développement d'une application mobile (Flutter, Dart) de vérification des paiements de taxes communales, intégrée à Odoo 17 via XML-RPC. Développement d'un module Odoo 17 en Python (cash points, paiements, statuts, références de quittance automatiques et rapports PDF), journal de consultation et tableau de bord statistique. PostgreSQL, Docker et Git. Stage validé avec attestation délivrée le 9 octobre 2026."
     },
-    // {
-    //   poste: "Étudiant en Développement Web",
-    //   entreprise: "Autodidacte / Formations en ligne",
-    //   periode: "2026",
-    //   description: "Apprentissage HTML, CSS, JavaScript ES6+. Réalisation de projets pratiques : Todo List, Calculatrice, Clone de sites web."
-    // }
+    {
+      poste: "Développeur Web Full Stack",
+      entreprise: "Projets personnels",
+      periode: "2025 - Aujourd'hui",
+      description: "Conception et développement d'applications web et desktop : MADA STOCK (SaaS de gestion de stock multi-entreprises), MADA DIGITAL AGENCY, Tourisme Voyage Madagascar, système de réservation en microservices, Fandresena Hotel, HotelManager, Yummy Restaurant et MADA-COMMUNE (Odoo 19). React, Node.js, Python, PostgreSQL, Tailwind CSS, Docker et Git."
+    }
   ]
 
   return (

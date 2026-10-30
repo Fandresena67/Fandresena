@@ -3,6 +3,24 @@ import Footer from './Footer.jsx'
 function Projet() {
   const projets = [
     {
+      id: 12,
+      titre: "LinkGuard",
+      description: "Application web de cybersécurité (en cours) qui analyse des URL suspectes, évalue leur niveau de risque et conserve l'historique des analyses. React, TypeScript, Tailwind CSS, FastAPI et PostgreSQL.",
+      image: "/linkguard.png",
+      tech: ["React", "TypeScript", "Tailwind CSS", "FastAPI", "PostgreSQL"],
+      // lienDemo: "https://github.com/Fandresena67",
+      lienLabel: "Voir sur GitHub",
+    },
+    {
+      id: 13,
+      titre: "MADA-COMMUNE",
+      description: "Système de gestion communale développé avec Odoo 19 (Python, XML/QWeb, PostgreSQL) : citoyens et quartiers, demandes administratives avec workflow, finances, stocks et personnel. Tableau de bord, 5 profils d'accès par rôle, reçu PDF et export Excel.",
+      image: "/mada-commune.png",
+      tech: ["Odoo 19", "Python", "XML/QWeb", "PostgreSQL"],
+      lienDemo: "https://github.com/Fandresena67/odoo-uf-commune.git",
+      lienLabel: "Voir sur GitHub",
+    },
+    {
   id: 10,
   titre: "Tourisme Voyage Madagascar",
   description: "Plateforme touristique bilingue (FR/EN) dédiée à la découverte de Madagascar. Elle propose un catalogue de 21 destinations, 51 activités et 62 hébergements, avec recherche, filtres, pages de détail et formulaire de demande de réservation par email. Interface responsive développée avec React 19, TypeScript et Tailwind CSS v4, déployée sur Vercel.",
@@ -109,13 +127,12 @@ function Projet() {
 
     {
       id: 1,
-      titre: "Page CV en ligne",
-      description: "CV interactif développé en HTML, CSS et JavaScript. Version web responsive hébergée sur GitHub Pages.",
+      titre: "Portfolio personnel",
+      description: "Portfolio moderne développé avec React, React Router et Bootstrap pour présenter mon profil, mes compétences et mes projets. Interface responsive déployée sur Vercel.",
       image: "/fa.png",
-      tech: ["HTML5", "JavaScript", "Tailwind CSS", "React"],
+      tech: ["React", "React Router", "Bootstrap", "Vite", "Vercel"],
 
-      // https://fandresena67.github.io/PageCV
-      lienDemo: "https://perso-web-react.vercel.app/",
+      lienDemo: "https://fandresena-five.vercel.app",
     },
 
     {
@@ -194,7 +211,7 @@ function Projet() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Voir le site →
+                    {projet.lienLabel || "Voir le site"} →
                   </a>
                 </div>
               </div>

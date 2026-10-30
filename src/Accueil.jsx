@@ -21,21 +21,23 @@ function Accueil() {
           <div className="col-md-7 mt-5">
             <div className="hero-card rounded-4 p-5">
               <p className="text-uppercase fw-semibold mb-2" style={{ color: "var(--accent)", letterSpacing: "1.5px", fontSize: "0.85rem" }}>
-                Disponible pour un stage
+                Disponible pour un stage ou un premier emploi
               </p>
               <h1 className="display-4 fw-bold mb-3">
                 Salut, moi c'est <span style={{ color: "var(--primary)" }}>Fandresena</span>
               </h1>
               <h2 className="fs-4 text-muted mb-4" style={{ fontWeight: 400 }}>
-                Développeur web/Mobile junior, 
+                Développeur Web Full Stack Junior - Web, mobile et Odoo
               </h2>
               <p className="lead mb-4">
 
-                  Étudiant en informatique, 
-                  je développe des applications web modernes et des solutions métier. 
-                  Curieux et polyvalent, je m’adapte rapidement à de nouvelles technologies, 
-                  environnements et problématiques de développement.
+                  Étudiant en deuxième année de Licence en Informatique à l'EMIT
+                  (Université de Fianarantsoa), je réalise des applications web, mobiles
+                  et desktop avec React, Node.js, Python et PostgreSQL. Pendant mon stage
+                  à la Commune Urbaine de Fianarantsoa, j'ai développé une application mobile
+                  de vérification des paiements de taxes communales intégrée à Odoo 17.
               </p>
+
               <div className="d-flex gap-3 flex-wrap position-relative" style={{ zIndex: 1 }}>
                 <Link to="/projet" className="btn btn-accent btn-lg px-4">
                   Voir mes projets

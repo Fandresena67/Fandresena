@@ -2,13 +2,14 @@ import Footer from './Footer.jsx'
 
 function Langage() {
   const langages = [
-    { nom: "JavaScript", niveau: "En apprentissage", desc: "" },
-    { nom: "HTML5", niveau: "En apprentissage", desc: "" },
-    { nom: "CSS3", niveau: "En apprentissage", desc: "" },
-    { nom: "Python", niveau: "En apprentissage", desc: "" },
-    { nom: "Java", niveau: "En apprentissage", desc: "" },
-    { nom: "C#", niveau: "En apprentissage", desc: "" },
-    { nom: "PHP", niveau: "En apprentissage", desc: "" },
+    { nom: "JavaScript", niveau: "Avancé", desc: "React, Node.js, Express" },
+    { nom: "TypeScript", niveau: "Avancé", desc: "Applications web typées avec React" },
+    { nom: "Python", niveau: "Intermédiaire", desc: "FastAPI, Odoo et scripts" },
+    { nom: "Dart", niveau: "Intermédiaire", desc: "Applications mobiles avec Flutter" },
+    { nom: "Java", niveau: "Intermédiaire", desc: "Applications desktop avec Swing" },
+    { nom: "PHP", niveau: "Intermédiaire", desc: "Développement web back-end" },
+    { nom: "C#", niveau: "Notions", desc: "Applications desktop avec Avalonia UI" },
+    { nom: "C", niveau: "Notions", desc: "Bases de la programmation système" },
   ]
 
   return (

@@ -25,8 +25,8 @@ function Footer() {
               className="text-white-50 mb-3"
               style={{ maxWidth: '280px' }}
             >
-              Développeur web junior, basé à Madagascar.
-              Je conçois des interfaces modernes et réactives.
+              Développeur Web Full Stack Junior, basé à Madagascar.
+              Je conçois des applications web, mobiles et Odoo.
             </p>
 
             <div className="d-flex gap-2">

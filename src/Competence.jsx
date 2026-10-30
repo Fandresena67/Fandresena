@@ -2,20 +2,29 @@ import Footer from './Footer.jsx'
 
 function Competence() {
   const competencesTechniques = [
-    { nom: "React", niveau: 20 },
-    { nom: "JavaScript", niveau: 30 },
-    { nom: "HTML / CSS", niveau: 90 },
-    { nom: "Bootstrap", niveau: 30 },
-    { nom: "Git / GitHub", niveau: 65 },
+    { nom: "React", niveau: 85 },
+    { nom: "JavaScript / TypeScript", niveau: 80 },
+    { nom: "Node.js / Express", niveau: 75 },
+    { nom: "Python / FastAPI", niveau: 75 },
+    { nom: "Odoo 17 & 19", niveau: 75 },
+    { nom: "Flutter / Dart", niveau: 65 },
+    { nom: "HTML5 / CSS3", niveau: 90 },
+    { nom: "Tailwind CSS / Bootstrap", niveau: 85 },
+    { nom: "PostgreSQL / MySQL", niveau: 75 },
+    { nom: "Git / GitHub", niveau: 80 },
   ]
 
   const outils = [
     "VS Code",
+    "IntelliJ IDEA",
     "Vite",
-    "npm",
-    "Figma",
-    "Linux",
-    "Firefox DevTools"
+    "Docker",
+    "Linux (Ubuntu)",
+    "Git / GitHub",
+    "Vercel",
+    "Render",
+    "Railway",
+    "Figma"
   ]
 
   return (

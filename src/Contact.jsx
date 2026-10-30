@@ -31,7 +31,7 @@ function Contact() {
       } else {
         setStatus("error")
       }
-    } catch (err) {
+    } catch {
       setStatus("error")
     }
   }
@@ -41,7 +41,7 @@ function Contact() {
       <div className="container mt-5">
         <div className="text-center mb-5">
           <h1 className="mb-1 mt-5">Me Contacter</h1>
-          <p className="text-muted">Une question, une opportunité ? Écris-moi.</p>
+          <p className="text-muted">Une question, une opportunité de stage ou de premier emploi ? Écris-moi.</p>
         </div>
 
         <div className="row justify-content-center">
