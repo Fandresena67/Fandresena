@@ -11,6 +11,15 @@ function Projet() {
     //   // lienDemo: "https://github.com/Fandresena67",
     //   lienLabel: "Voir sur GitHub",
     // },
+        {
+      id: 14,
+      titre: "Cash Point Verification",
+      description: "Application mobile Flutter connectée à Odoo 17 via XML-RPC, développée en stage à la Commune Urbaine de Fianarantsoa pour vérifier les paiements de taxes des cash points mobile money (Mvola, Orange Money, Airtel Money). Module Odoo personnalisé (Python) : détection automatique de l'opérateur, calcul du statut de paiement, notifications de retard, quittances PDF, tableau de bord et journal des consultations. Sécurité par rôles Agent/Superviseur, environnement Docker.",
+      image: "/cashpoint-verification.png",
+      tech: ["Flutter", "Dart", "Odoo 17", "Python", "XML-RPC", "PostgreSQL", "Docker"],
+      lienDemo: "https://github.com/Fandresena67/Mon-projet-de-stage_26",
+      lienLabel: "Voir sur GitHub",
+    },
     {
       id: 13,
       titre: "MADA-COMMUNE",
