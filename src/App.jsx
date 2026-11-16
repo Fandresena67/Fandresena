@@ -6,7 +6,7 @@ import Competence from './Competence.jsx'
 import Experience from './Experience.jsx'
 import Langage from './Langage.jsx'
 import Contact from './Contact.jsx'
-import EmailGate from './EmailGate.jsx'
+import { Analytics } from '@vercel/analytics/react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
@@ -15,7 +15,6 @@ import './App.css'
 function App() {
   return (
     <>
-      <EmailGate />
       <Navbar />
       <Routes>
         <Route path="/" element={<Accueil />} />
@@ -25,6 +24,7 @@ function App() {
         <Route path="/experience" element={<Experience />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Analytics />
     </>
   )
 }

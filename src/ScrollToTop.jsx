@@ -6,7 +6,6 @@ import Competence from './Competence.jsx'
 import Experience from './Experience.jsx'
 import Langage from './Langage.jsx'
 import Contact from './Contact.jsx'
-import EmailGate from './EmailGate.jsx'
 import ScrollToTop from './ScrollToTop.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
@@ -16,7 +15,6 @@ import './App.css'
 function App() {
   return (
     <>
-      <EmailGate />
       <ScrollToTop />
       <Navbar />
       <Routes>

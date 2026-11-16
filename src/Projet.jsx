@@ -2,15 +2,15 @@ import Footer from './Footer.jsx'
 
 function Projet() {
   const projets = [
-    {
-      id: 12,
-      titre: "LinkGuard",
-      description: "Application web de cybersécurité (en cours) qui analyse des URL suspectes, évalue leur niveau de risque et conserve l'historique des analyses. React, TypeScript, Tailwind CSS, FastAPI et PostgreSQL.",
-      image: "/linkguard.png",
-      tech: ["React", "TypeScript", "Tailwind CSS", "FastAPI", "PostgreSQL"],
-      // lienDemo: "https://github.com/Fandresena67",
-      lienLabel: "Voir sur GitHub",
-    },
+    // {
+    //   id: 12,
+    //   titre: "LinkGuard",
+    //   description: "Application web de cybersécurité (en cours) qui analyse des URL suspectes, évalue leur niveau de risque et conserve l'historique des analyses. React, TypeScript, Tailwind CSS, FastAPI et PostgreSQL.",
+    //   image: "/linkguard.png",
+    //   tech: ["React", "TypeScript", "Tailwind CSS", "FastAPI", "PostgreSQL"],
+    //   // lienDemo: "https://github.com/Fandresena67",
+    //   lienLabel: "Voir sur GitHub",
+    // },
     {
       id: 13,
       titre: "MADA-COMMUNE",
