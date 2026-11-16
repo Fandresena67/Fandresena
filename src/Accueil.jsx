@@ -31,7 +31,7 @@ function Accueil() {
               </h2>
               <p className="lead mb-4">
 
-                  Étudiant en deuxième année de Licence en Informatique à l'EMIT
+                  Étudiant en troisième année de Licence en Informatique à l'EMIT
                   (Université de Fianarantsoa), je réalise des applications web, mobiles
                   et desktop avec React, Node.js, Python et PostgreSQL. Pendant mon stage
                   à la Commune Urbaine de Fianarantsoa, j'ai développé une application mobile
